@@ -1,6 +1,6 @@
 # Selenium Python scripts for automating test cases.
 
-## Contains scrips to automate test cases of "Anki" web-based application. Foth tests generated manually and with the help of CIT.
+## Contains scrips to automate test cases of "Anki" web-based application. Both tests generated manually and with the help of CIT.
 
 ## Contents:
 * excel_files: excel tables with test cases data generated with the help of CIT;
@@ -8,7 +8,7 @@
 * test_anki: scripts of the tests. Each file corresponds to one test scenario and runs multiple tests with various parameters;
 
 ## Setup:
-a .zip folder is prepared for download. It containes all the elements of a Python project as well as the 3 packages mentioned above.
+a .zip folder is prepared for download. It contains all the elements of a Python project as well as the 3 packages mentioned above.
 After download, Selenium must be installed on the used machine.
 
 ## Notes:
@@ -20,7 +20,7 @@ all scripts use absolute paths to locate the excel tables with data on a used ma
 After downloading, it is necessary to specify the locations where those excel files from excel_files folder are stored.
 Then your own locations must be used as a parameter passed to get_data_fromExcel.py utility function instead of value present at the moment.
 
-3) test scenarious preconditions:
+3) test scenarios preconditions:
 All the tests will work correctly only if all the test preconditions are met. All the preconditions for each test case can be found in manual_tests.xlxs file.
 
 
